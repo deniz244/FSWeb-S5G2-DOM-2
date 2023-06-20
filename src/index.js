@@ -23,3 +23,9 @@ for (let i = 0; i < renkli.length; i++) {
     false
   );
 }
+
+//dbclick
+const size = document.querySelector(".intro header img");
+size.addEventListener("dbclick", (e) => {
+  size.style.transform = scale(1.3);
+});
